@@ -124,4 +124,4 @@ api_response['headers']['Access-Control-Allow-Origin'] = os.environ.get('*')
 1. 浏览器输入 `https://<api-gateway-invoke-url>/fit-in/300x400/<s3-object-key>`，例如`https://fwgzof7dee.execute-api.cn-northwest-1.amazonaws.com.cn/dev/fit-in/300x400/demo/flower.jpg`获得300x400的切图
 2. 浏览器输入 `https://<api-gateway-invoke-url>/filters:blur(7)/<s3-object-key>`，例如`https://fwgzof7dee.execute-api.cn-northwest-1.amazonaws.com.cn/dev/filters:blur(7)/demo/flower.jpg`获得模糊图片
 
-支持的Filter，请参考[Serverless Imager Handler Appendix A: Supported Filters](https://docs.aws.amazon.com/solutions/latest/serverless-image-handler/appendix-a.html)
+支持的Filter，请参考[https://docs.aws.amazon.com/solutions/latest/serverless-image-handler/appendix-d.html](https://docs.aws.amazon.com/solutions/latest/serverless-image-handler/appendix-d.html)
