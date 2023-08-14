@@ -31,7 +31,7 @@ setup(
         'botocore==1.8.0',
         # SO-SIH-159 - 07/18/2018 - Version and dependencies fix
         # Locking botocore, pycurl version and moving dependencies from requirements
-        'tornado==5.0.1',
+        'tornado==6.3.3',
         'pycurl==7.43.0.1',
         'tornado_botocore==1.3.0',
         'requests_unixsocket==0.1.5',
